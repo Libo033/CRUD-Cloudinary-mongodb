@@ -1,0 +1,92 @@
+.form {
+  width: 50%;
+  height: 81%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.labelContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 6px;
+  padding-block: 0.3em;
+  padding-inline: 0.3em;
+  outline-color: gray;
+}
+
+.fileInputContainer {
+  width: 100%;
+  display: flex;
+  gap: 1%;
+}
+
+.file {
+  display: none;
+}
+
+.fileLabel {
+  border: 1px solid gray;
+  border-radius: 6px;
+  padding-block: 0.3em;
+  padding-inline: 0.3em;
+  cursor: pointer;
+  font-size: 0.84em;
+}
+
+.add {
+  border: 1px solid gray;
+  border-radius: 6px;
+  padding-block: 0.3em;
+  padding-inline: 0.9em;
+  cursor: pointer;
+  font-size: 0.81em;
+  background-color: transparent;
+}
+
+.imagesContainer {
+  padding-block: 0.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.image {
+  display: flex;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+
+.createButton {
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color: transparent;
+  padding-block: 0.3em;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.delete {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: rgba(245, 245, 245, 0.45);
+  border-radius: 9px;
+  cursor: pointer;
+}

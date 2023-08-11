@@ -1,0 +1,58 @@
+.card {
+  border: 1px solid black;
+  border-radius: 6px;
+  width: 48.5%;
+  padding: 2%;
+}
+
+.card p{
+  font-size: 2.1em;
+  padding-inline: 0.9rem;
+  margin-bottom: 0.9rem;
+  border-bottom: 1px solid gray;
+}
+
+.products {
+  padding: 3%;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.swiperslide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.allImages {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  border-radius: 6px;
+}
+
+.buttonGroup {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  width: 49%;
+  padding-block: 0.45em;
+  background-color: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
